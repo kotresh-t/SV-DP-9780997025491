@@ -1,0 +1,12 @@
+
+Description: 
+This system will accept transactions from various AXI protocols and route them to specific target interfaces based on their address ranges. This example will include the definitions of transaction interfaces, target interfaces, the interconnect module, and a top-level module that orchestrates the entire flow.
+
+-- master_transactions: 
+	For demonstration we are going to use several axi transaction protocols transactions. 
+	We will choose one of the transaction for driving across the interconnect example. 
+-- router. 
+	This will receive the transaction on the interface and based on the address region mapping will 
+	drive to the different transaction interfaces. 
+
+Note:  the strategy can essentially be applied for receiving or sending the transaction across interconnect depending on the protocol or specification adaptation. This example is for basic illustration purpose only.  
